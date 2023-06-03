@@ -8,12 +8,11 @@
   "Column1": "0:0:0-0:0:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
-  "SUBDOMAIN v-scale Score": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column11": "Motor Skills"
  },
  {
   "Column2": "Receptive",
@@ -22,10 +21,10 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
-  "SUBDOMAIN v-scale Score": "Gross",
+  "Column11": "Gross",
   "Column12": "Fine"
  },
  {
@@ -42,7 +41,7 @@
   "Column8": "21-76",
   "Column9": "9-62",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "5-80",
+  "Column11": "5-80",
   "Column12": "5-72",
   "Column13": 24
  },
@@ -57,7 +56,7 @@
   "Column8": "-",
   "Column9": "8",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "3-4",
   "Column13": 23
  },
@@ -72,7 +71,7 @@
   "Column8": "20",
   "Column9": "7",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "2",
   "Column13": 22
  },
@@ -87,7 +86,7 @@
   "Column8": "19",
   "Column9": "5-6",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 21
  },
@@ -102,7 +101,7 @@
   "Column8": "18",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "1",
   "Column13": 20
  },
@@ -117,7 +116,7 @@
   "Column8": "13-17",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "4",
+  "Column11": "4",
   "Column12": "-",
   "Column13": 19
  },
@@ -132,7 +131,7 @@
   "Column8": "11-12",
   "Column9": "3-4",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "3",
+  "Column11": "3",
   "Column12": "-",
   "Column13": 18
  },
@@ -147,7 +146,7 @@
   "Column8": "9-10",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 17
  },
@@ -162,7 +161,7 @@
   "Column8": "7-8",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "2",
+  "Column11": "2",
   "Column12": "0",
   "Column13": 16
  },
@@ -177,7 +176,7 @@
   "Column8": "5-6",
   "Column9": "2",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "1",
+  "Column11": "1",
   "Column12": "-",
   "Column13": 15
  },
@@ -192,7 +191,7 @@
   "Column8": "4",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "0",
+  "Column11": "0",
   "Column12": "-",
   "Column13": 14
  },
@@ -222,7 +221,7 @@
   "Column8": "3",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 12
  },
@@ -237,7 +236,7 @@
   "Column8": "-",
   "Column9": "0",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 11
  },
@@ -252,7 +251,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 10
  },
@@ -267,7 +266,7 @@
   "Column8": "2",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 9
  },
@@ -282,7 +281,7 @@
   "Column8": "1",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 8
  },
@@ -297,7 +296,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 7
  },
@@ -312,7 +311,7 @@
   "Column8": "0",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 6
  },
@@ -327,7 +326,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 5
  },
@@ -342,7 +341,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 4
  },
@@ -357,7 +356,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 3
  },
@@ -372,7 +371,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 2
  },
@@ -387,12 +386,12 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -402,9 +401,9 @@
   "Column8": "± 2",
   "Column9": "± 2",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "± 1",
+  "Column11": "± 1",
   "Column12": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -412,12 +411,12 @@
   "Column1": "0:1:0-0:1:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "SUBDOMAIN v-scale Score": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -426,10 +425,10 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
-  "SUBDOMAIN v-scale Score": "Gross",
+  "Column11": "Gross",
   "Column12": "Fine"
  },
  {
@@ -446,7 +445,7 @@
   "Column8": "21-76",
   "Column9": "9-62",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "6-80",
+  "Column11": "6-80",
   "Column12": "6-72",
   "Column13": 24
  },
@@ -461,7 +460,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 23
  },
@@ -476,7 +475,7 @@
   "Column8": "-",
   "Column9": "8",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "5",
+  "Column11": "5",
   "Column12": "5",
   "Column13": 22
  },
@@ -491,7 +490,7 @@
   "Column8": "20",
   "Column9": "7",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "3-4",
   "Column13": 21
  },
@@ -506,7 +505,7 @@
   "Column8": "19",
   "Column9": "6",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "2",
   "Column13": 20
  },
@@ -521,7 +520,7 @@
   "Column8": "18",
   "Column9": "5",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 19
  },
@@ -536,7 +535,7 @@
   "Column8": "16-17",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "1",
   "Column13": 18
  },
@@ -551,7 +550,7 @@
   "Column8": "13-15",
   "Column9": "4",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "3-4",
+  "Column11": "3-4",
   "Column12": "-",
   "Column13": 17
  },
@@ -566,7 +565,7 @@
   "Column8": "11-12",
   "Column9": "3",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 16
  },
@@ -581,7 +580,7 @@
   "Column8": "7-10",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "2",
+  "Column11": "2",
   "Column12": "0",
   "Column13": 15
  },
@@ -596,7 +595,7 @@
   "Column8": "5-6",
   "Column9": "2",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "1",
+  "Column11": "1",
   "Column12": "-",
   "Column13": 14
  },
@@ -611,7 +610,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 13
  },
@@ -626,7 +625,7 @@
   "Column8": "4",
   "Column9": "1",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "0",
+  "Column11": "0",
   "Column12": "-",
   "Column13": 12
  },
@@ -641,7 +640,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 11
  },
@@ -656,7 +655,7 @@
   "Column8": "3",
   "Column9": "0",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 10
  },
@@ -671,7 +670,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 9
  },
@@ -686,7 +685,7 @@
   "Column8": "2",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 8
  },
@@ -701,7 +700,7 @@
   "Column8": "1",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 7
  },
@@ -716,7 +715,7 @@
   "Column8": "0",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 6
  },
@@ -731,7 +730,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 5
  },
@@ -746,7 +745,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 4
  },
@@ -761,7 +760,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 3
  },
@@ -776,7 +775,7 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 2
  },
@@ -791,12 +790,12 @@
   "Column8": "-",
   "Column9": "-",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -806,24 +805,22 @@
   "Column8": "± 2",
   "Column9": "± 2",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "± 1",
+  "Column11": "± 1",
   "Column12": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 2":[
  null,
  null,
  {
-  "SUBDOMAIN v-Scale Scores": "0:2:0-0:2:30"
+  "Column1": "0:2:0-0:2:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
-  "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column12": "Motor Skills"
  },
  {
   "Column3": "Receptive",
@@ -832,8 +829,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -1202,7 +1199,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -1214,7 +1211,7 @@
   "Column11": "-",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -1222,12 +1219,12 @@
   "SUBDOMAIN v-Scale Scores": "0:3:0-0:3:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -1236,8 +1233,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -1606,7 +1603,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -1618,7 +1615,7 @@
   "Column11": "-",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 3":[
@@ -1628,12 +1625,12 @@
   "Column1": "0:4:0-0:4:30"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -1642,8 +1639,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -2012,7 +2009,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -2024,7 +2021,7 @@
   "Column10": "-",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -2032,12 +2029,12 @@
   "Column1": "0:5:0-0:5:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -2046,8 +2043,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -2416,7 +2413,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -2428,7 +2425,7 @@
   "Column10": "-",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 4":[
@@ -2438,12 +2435,12 @@
   "SUBDOMAIN v-Scale Scores": "0:6:0-0:6:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -2452,8 +2449,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -2822,7 +2819,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -2834,7 +2831,7 @@
   "Column11": "-",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -2842,12 +2839,12 @@
   "SUBDOMAIN v-Scale Scores": "0:7:0-0:7:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -2856,8 +2853,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -3226,7 +3223,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -3238,7 +3235,7 @@
   "Column11": "-",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 5":[
@@ -3248,12 +3245,12 @@
   "Column1": "0:8:0-0:8:30"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -3262,8 +3259,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -3632,7 +3629,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -3644,7 +3641,7 @@
   "Column10": "-",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -3652,12 +3649,12 @@
   "Column1": "0:9:0-0:9:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -3666,8 +3663,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -4036,7 +4033,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -4048,7 +4045,7 @@
   "Column10": "-",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 6":[
@@ -4058,12 +4055,12 @@
   "SUBDOMAIN v-Scale Scores": "0:10:0-0:10:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -4072,8 +4069,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -4442,7 +4439,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -4454,7 +4451,7 @@
   "Column11": "-",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -4462,12 +4459,12 @@
   "SUBDOMAIN v-Scale Scores": "0:11:0-0:11:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -4476,8 +4473,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -4846,7 +4843,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -4858,7 +4855,7 @@
   "Column11": "-",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 7":[
@@ -4868,12 +4865,12 @@
   "Column1": "1:0:0-1:0:30"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -4882,8 +4879,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -5252,7 +5249,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -5264,7 +5261,7 @@
   "Column10": "± 3",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -5272,12 +5269,12 @@
   "Column1": "1:1:0-1:1:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -5286,8 +5283,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -5656,7 +5653,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -5668,7 +5665,7 @@
   "Column10": "± 3",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 8":[
@@ -5678,12 +5675,12 @@
   "SUBDOMAIN v-Scale Scores": "1:2:0-1:2:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -5692,8 +5689,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -6062,7 +6059,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -6074,7 +6071,7 @@
   "Column11": "± 3",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -6082,12 +6079,12 @@
   "SUBDOMAIN v-Scale Scores": "1:3:0-1:3:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -6096,8 +6093,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -6466,7 +6463,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -6478,7 +6475,7 @@
   "Column11": "± 3",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 9":[
@@ -6488,12 +6485,12 @@
   "Column1": "1:4:0-1:4:30"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -6502,8 +6499,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -6872,7 +6869,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -6884,7 +6881,7 @@
   "Column10": "± 3",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -6892,12 +6889,12 @@
   "Column1": "1:5:0-1:5:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -6906,8 +6903,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -7276,7 +7273,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -7288,7 +7285,7 @@
   "Column10": "± 3",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 10":[
@@ -7298,12 +7295,12 @@
   "SUBDOMAIN v-Scale Scores": "1:6:0-1:6:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -7312,8 +7309,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -7682,7 +7679,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -7694,7 +7691,7 @@
   "Column11": "± 3",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -7702,12 +7699,12 @@
   "SUBDOMAIN v-Scale Scores": "1:7:0-1:7:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -7716,8 +7713,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -8086,7 +8083,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -8098,7 +8095,7 @@
   "Column11": "± 3",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 11":[
@@ -8108,12 +8105,12 @@
   "Column1": "1:8:0-1:8:30"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -8122,8 +8119,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -8492,7 +8489,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -8504,7 +8501,7 @@
   "Column10": "± 3",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -8512,12 +8509,12 @@
   "Column1": "1:9:0-1:9:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -8526,8 +8523,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -8896,7 +8893,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -8908,7 +8905,7 @@
   "Column10": "± 3",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 12":[
@@ -8918,12 +8915,12 @@
   "SUBDOMAIN v-Scale Scores": "1:10:0-1:10:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -8932,8 +8929,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -9302,7 +9299,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -9314,7 +9311,7 @@
   "Column11": "± 3",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -9322,12 +9319,12 @@
   "SUBDOMAIN v-Scale Scores": "1:11:0-1:11:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -9336,8 +9333,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -9706,7 +9703,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -9718,7 +9715,7 @@
   "Column11": "± 3",
   "Column12": "± 1",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 13":[
@@ -9728,12 +9725,12 @@
   "Column1": "2:0:0-2:1:30"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -9742,8 +9739,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -10112,7 +10109,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -10124,7 +10121,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -10132,12 +10129,12 @@
   "Column1": "2:2:0-2:3:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -10146,8 +10143,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -10516,7 +10513,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -10528,7 +10525,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 14":[
@@ -10538,12 +10535,12 @@
   "SUBDOMAIN v-Scale Scores": "2:4:0-2:5:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -10552,8 +10549,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -10922,7 +10919,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -10934,7 +10931,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -10942,12 +10939,12 @@
   "SUBDOMAIN v-Scale Scores": "2:6:0-2:7:30"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -10956,8 +10953,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -11326,7 +11323,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "-",
@@ -11338,7 +11335,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 15":[
@@ -11348,12 +11345,12 @@
   "Column1": "2:8:0-2:9:30"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -11362,8 +11359,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -11732,7 +11729,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -11744,7 +11741,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -11752,12 +11749,12 @@
   "Column1": "2:10:0-2:11:30"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -11766,8 +11763,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -12136,7 +12133,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "-",
@@ -12148,7 +12145,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 16":[
@@ -12158,12 +12155,12 @@
   "SUBDOMAIN v-Scale Scores": "3:0-3:1"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -12172,8 +12169,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -12542,7 +12539,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 3",
@@ -12554,7 +12551,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -12562,12 +12559,12 @@
   "SUBDOMAIN v-Scale Scores": "3:2-3:3"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -12576,8 +12573,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -12946,7 +12943,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 3",
@@ -12958,7 +12955,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 17":[
@@ -12968,12 +12965,12 @@
   "Column1": "3:4-3:5"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -12982,8 +12979,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -13352,7 +13349,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "± 3",
@@ -13364,7 +13361,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -13372,12 +13369,12 @@
   "Column1": "3:6-3:7"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -13386,8 +13383,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -13756,7 +13753,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "± 3",
@@ -13768,7 +13765,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 18":[
@@ -13778,12 +13775,12 @@
   "SUBDOMAIN v-Scale Scores": "3:8-3:9"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -13792,8 +13789,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -14162,7 +14159,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 3",
@@ -14174,7 +14171,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -14182,12 +14179,12 @@
   "SUBDOMAIN v-Scale Scores": "3:10-3:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -14196,8 +14193,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -14566,7 +14563,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 3",
@@ -14578,7 +14575,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 19":[
@@ -14588,12 +14585,12 @@
   "Column1": "4:0-4:1"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -14602,8 +14599,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -14972,7 +14969,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 3",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -14984,7 +14981,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -14992,12 +14989,12 @@
   "Column1": "4:2-4:3"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -15006,8 +15003,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -15376,7 +15373,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -15388,7 +15385,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 20":[
@@ -15398,12 +15395,12 @@
   "SUBDOMAIN v-Scale Scores": "4:4-4:5"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -15412,8 +15409,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -15782,7 +15779,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 3",
   "Column4": "± 1",
   "Column5": "± 2",
@@ -15794,7 +15791,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -15802,12 +15799,12 @@
   "SUBDOMAIN v-Scale Scores": "4:6-4:7"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -15816,8 +15813,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -16186,7 +16183,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 3",
   "Column4": "± 1",
   "Column5": "± 3",
@@ -16198,7 +16195,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 21":[
@@ -16208,12 +16205,12 @@
   "Column1": "4:8-4:9"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -16222,8 +16219,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -16592,7 +16589,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 3",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -16604,7 +16601,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -16612,12 +16609,12 @@
   "Column1": "4:10-4:11"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -16626,8 +16623,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -16996,7 +16993,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 3",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -17008,7 +17005,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 22":[
@@ -17018,12 +17015,12 @@
   "SUBDOMAIN v-Scale Scores": "5:0-5:1"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -17032,8 +17029,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -17402,7 +17399,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 2",
@@ -17414,7 +17411,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -17422,12 +17419,12 @@
   "SUBDOMAIN v-Scale Scores": "5:2-5:3"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -17436,8 +17433,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -17806,7 +17803,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 2",
@@ -17818,7 +17815,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 23":[
@@ -17828,12 +17825,12 @@
   "Column1": "5:4-5:5"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -17842,8 +17839,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -18212,7 +18209,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -18224,7 +18221,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -18232,12 +18229,12 @@
   "Column1": "5:6-5:7"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -18246,8 +18243,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -18616,7 +18613,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -18628,7 +18625,7 @@
   "Column10": "± 2",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 24":[
@@ -18638,12 +18635,12 @@
   "SUBDOMAIN v-Scale Scores": "5:8-5:9"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -18652,8 +18649,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -19022,7 +19019,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 2",
@@ -19034,7 +19031,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -19042,12 +19039,12 @@
   "SUBDOMAIN v-Scale Scores": "5:10-5:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -19056,8 +19053,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -19426,7 +19423,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 1",
   "Column5": "± 2",
@@ -19438,7 +19435,7 @@
   "Column11": "± 2",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 25":[
@@ -19448,12 +19445,12 @@
   "Column1": "6:0-6:2"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -19462,8 +19459,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -19832,7 +19829,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -19844,7 +19841,7 @@
   "Column10": "± 1",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -19852,12 +19849,12 @@
   "Column1": "6:3-6:5"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -19866,8 +19863,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -20236,7 +20233,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -20248,7 +20245,7 @@
   "Column10": "± 1",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 26":[
@@ -20258,12 +20255,12 @@
   "SUBDOMAIN v-Scale Scores": "6:6-6:8"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -20272,8 +20269,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -20642,7 +20639,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -20654,7 +20651,7 @@
   "Column11": "± 1",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -20662,12 +20659,12 @@
   "SUBDOMAIN v-Scale Scores": "6:9-6:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -20676,8 +20673,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -21046,7 +21043,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -21058,7 +21055,7 @@
   "Column11": "± 1",
   "Column12": "± 2",
   "Column13": "± 2",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 27":[
@@ -21068,12 +21065,12 @@
   "Column1": "7:0-7:2"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -21082,8 +21079,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -21452,7 +21449,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -21464,7 +21461,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -21472,12 +21469,12 @@
   "Column1": "6:3-6:5"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -21486,8 +21483,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -21856,7 +21853,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -21868,7 +21865,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 28":[
@@ -21878,12 +21875,12 @@
   "SUBDOMAIN v-Scale Scores": "7:6-7:8"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -21892,8 +21889,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -22262,7 +22259,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -22274,7 +22271,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -22282,12 +22279,12 @@
   "SUBDOMAIN v-Scale Scores": "7:9-7:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -22296,8 +22293,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -22666,7 +22663,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -22678,7 +22675,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 29":[
@@ -22688,12 +22685,12 @@
   "Column1": "8:0-8:2"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -22702,8 +22699,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -23072,7 +23069,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -23084,7 +23081,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -23092,12 +23089,12 @@
   "Column1": "8:3-8:5"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -23106,8 +23103,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -23476,7 +23473,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -23488,7 +23485,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 30":[
@@ -23498,12 +23495,12 @@
   "SUBDOMAIN v-Scale Scores": "8:6-8:8"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -23512,8 +23509,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -23882,7 +23879,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -23894,7 +23891,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -23902,12 +23899,12 @@
   "SUBDOMAIN v-Scale Scores": "7:9-7:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -23916,8 +23913,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -24286,7 +24283,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -24298,7 +24295,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 31":[
@@ -24308,12 +24305,12 @@
   "Column1": "9:0-9:3"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -24322,8 +24319,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -24692,7 +24689,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -24704,7 +24701,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -24712,12 +24709,12 @@
   "Column1": "9:4-9:7"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -24726,8 +24723,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -25096,7 +25093,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -25108,7 +25105,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 32":[
@@ -25118,12 +25115,12 @@
   "SUBDOMAIN v-Scale Scores": "9:8-9:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -25132,8 +25129,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -25502,7 +25499,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -25514,7 +25511,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -25522,12 +25519,12 @@
   "SUBDOMAIN v-Scale Scores": "10:0-10:3"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -25536,8 +25533,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -25906,7 +25903,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -25918,7 +25915,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 33":[
@@ -25928,12 +25925,12 @@
   "Column1": "10:4-10:7"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -25942,8 +25939,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -26312,7 +26309,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -26324,7 +26321,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -26332,12 +26329,12 @@
   "Column1": "9:4-9:7"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -26346,8 +26343,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -26716,7 +26713,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -26728,7 +26725,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 34":[
@@ -26738,12 +26735,12 @@
   "SUBDOMAIN v-Scale Scores": "11:0-11:3"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -26752,8 +26749,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -27122,7 +27119,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -27134,7 +27131,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -27142,12 +27139,12 @@
   "SUBDOMAIN v-Scale Scores": "11:4-11:7"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -27156,8 +27153,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -27526,7 +27523,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -27538,7 +27535,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 35":[
@@ -27548,12 +27545,12 @@
   "Column1": "11:8-11:11"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -27562,8 +27559,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -27932,7 +27929,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -27944,7 +27941,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -27952,12 +27949,12 @@
   "Column1": "12:0-12:3"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -27966,8 +27963,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -28336,7 +28333,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -28348,7 +28345,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 36":[
@@ -28358,12 +28355,12 @@
   "SUBDOMAIN v-Scale Scores": "12:4-12:7"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -28372,8 +28369,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -28742,7 +28739,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -28754,7 +28751,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -28762,12 +28759,12 @@
   "SUBDOMAIN v-Scale Scores": "12:8-12:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -28776,8 +28773,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -29146,7 +29143,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -29158,7 +29155,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 37":[
@@ -29168,12 +29165,12 @@
   "Column1": "13:0-13:5"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -29182,8 +29179,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -29552,7 +29549,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -29564,7 +29561,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -29572,12 +29569,12 @@
   "Column1": "13:6-13:11"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -29586,8 +29583,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -29956,7 +29953,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -29968,7 +29965,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 38":[
@@ -29978,12 +29975,12 @@
   "SUBDOMAIN v-Scale Scores": "14:0-14:5"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -29992,8 +29989,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -30362,7 +30359,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -30374,7 +30371,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -30382,12 +30379,12 @@
   "SUBDOMAIN v-Scale Scores": "12:8-12:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -30396,8 +30393,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -30766,7 +30763,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 2",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -30778,7 +30775,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 39":[
@@ -30788,12 +30785,12 @@
   "Column1": "15:0-15:5"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -30802,8 +30799,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -31172,7 +31169,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -31184,7 +31181,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -31192,12 +31189,12 @@
   "Column1": "13:6-13:11"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -31206,8 +31203,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -31576,7 +31573,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -31588,7 +31585,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 40":[
@@ -31598,12 +31595,12 @@
   "SUBDOMAIN v-Scale Scores": "16:0-16:5"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -31612,8 +31609,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -31982,7 +31979,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 1",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -31994,7 +31991,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -32002,12 +31999,12 @@
   "SUBDOMAIN v-Scale Scores": "16:6-16:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -32016,8 +32013,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -32386,7 +32383,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 1",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -32398,7 +32395,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 41":[
@@ -32408,12 +32405,12 @@
   "Column1": "17:0-17:5"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -32422,8 +32419,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -32792,7 +32789,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -32804,7 +32801,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -32812,12 +32809,12 @@
   "Column1": "17:6-17-11"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -32826,8 +32823,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -33196,7 +33193,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 2",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -33208,7 +33205,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 42":[
@@ -33218,12 +33215,12 @@
   "SUBDOMAIN v-Scale Scores": "18:0-18:5"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -33232,8 +33229,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -33602,7 +33599,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 1",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -33614,7 +33611,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -33622,12 +33619,12 @@
   "SUBDOMAIN v-Scale Scores": "18:6-18:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -33636,8 +33633,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -34006,7 +34003,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 1",
   "Column4": "± 2",
   "Column5": "± 2",
@@ -34018,7 +34015,7 @@
   "Column11": "± 2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 43":[
@@ -34028,12 +34025,12 @@
   "Column1": "19:0-21:11"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -34042,8 +34039,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -34412,7 +34409,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 1",
   "Column3": "± 2",
   "Column4": "± 2",
@@ -34424,7 +34421,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -34432,12 +34429,12 @@
   "Column1": "22:0-29:11"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -34446,8 +34443,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -34816,7 +34813,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 1",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -34828,7 +34825,7 @@
   "Column10": "± 2",
   "Column11": "-",
   "SUBDOMAIN v-Scale Scores": "-",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 44":[
@@ -34838,12 +34835,12 @@
   "SUBDOMAIN v-Scale Scores": "30:0-39:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -34852,8 +34849,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -35222,7 +35219,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 1 (±3)",
   "Column4": "± 1 (±2)",
   "Column5": "± 2 (±2)",
@@ -35234,7 +35231,7 @@
   "Column11": "± 2 (±2)",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -35242,12 +35239,12 @@
   "SUBDOMAIN v-Scale Scores": "40:0-49:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -35256,8 +35253,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -35626,7 +35623,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "±3",
   "Column4": "±2",
   "Column5": "±2",
@@ -35638,7 +35635,7 @@
   "Column11": "±2",
   "Column12": "-",
   "Column13": "-",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 45":[
@@ -35648,12 +35645,12 @@
   "Column1": "50:0-54:11"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -35662,8 +35659,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -36032,7 +36029,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 3 (±3)",
   "Column3": "± 2 (±1)",
   "Column4": "± 2 (±2)",
@@ -36044,7 +36041,7 @@
   "Column10": "± 2 (±1)",
   "Column11": "-(±2)",
   "SUBDOMAIN v-Scale Scores": "-(±2)",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -36052,12 +36049,12 @@
   "Column1": "55:0-59:11"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -36066,8 +36063,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -36436,7 +36433,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 3  ",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -36448,7 +36445,7 @@
   "Column10": "± 1",
   "Column11": "± 2",
   "SUBDOMAIN v-Scale Scores": "± 2",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 46":[
@@ -36458,12 +36455,12 @@
   "SUBDOMAIN v-Scale Scores": "60:0-64:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-Scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-Scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -36472,8 +36469,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -36842,7 +36839,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 3",
   "Column4": "± 1",
   "Column5": "± 2 ",
@@ -36854,7 +36851,7 @@
   "Column11": "± 1",
   "Column12": "± 2 ",
   "Column13": "± 2 ",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  },
  null,
  null,
@@ -36862,12 +36859,12 @@
   "SUBDOMAIN v-Scale Scores": "65:0-69:11"
  },
  {
-  "SUBDOMAIN v-Scale Scores": " v-scale\n Score",
+  "SUBDOMAIN v-Scale Scores": " v-scale Score",
   "Column3": "Communication",
   "Column6": "Daily linving Skill",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "v-Scale\n Score"
+  "Column14": "v-Scale Score"
  },
  {
   "Column3": "Receptive",
@@ -36876,8 +36873,8 @@
   "Column6": "Personal",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal \nRelationships",
-  "Column10": "Play and\n Leisure\n Time",
+  "Column9": "Interpersonal Relationships",
+  "Column10": "Play and Leisure Time",
   "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
@@ -37246,7 +37243,7 @@
   "Column14": 1
  },
  {
-  "SUBDOMAIN v-Scale Scores": "90%\nConf. Int.",
+  "SUBDOMAIN v-Scale Scores": "90%Conf. Int.",
   "Column3": "± 3",
   "Column4": "± 1",
   "Column5": "± 2 ",
@@ -37258,7 +37255,7 @@
   "Column11": "± 1",
   "Column12": "± 2 ",
   "Column13": "± 2 ",
-  "Column14": "90%\nConf. Int."
+  "Column14": "90%Conf. Int."
  }
 ],
 "Pagina 47":[
@@ -37268,12 +37265,12 @@
   "Column1": "70:0-79:11"
  },
  {
-  "Column1": " v-Scale\n Score",
+  "Column1": " v-Scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -37282,8 +37279,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -37652,7 +37649,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 3 (±1)",
   "Column3": "± 1 (±1)",
   "Column4": "± 2 (±2)",
@@ -37664,7 +37661,7 @@
   "Column10": "± 1 (±2)",
   "Column11": "± 2 (±1)",
   "SUBDOMAIN v-Scale Scores": "± 2 (±3)",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  },
  null,
  null,
@@ -37672,12 +37669,12 @@
   "Column1": "80:0-90:11"
  },
  {
-  "Column1": " v-scale\n Score",
+  "Column1": " v-scale Score",
   "Column2": "Communication",
   "Column5": "Daily linving Skill",
   "Column8": "Socialization",
   "Column11": "Motor Skills",
-  "Column13": "v-Scale\n Score"
+  "Column13": "v-Scale Score"
  },
  {
   "Column2": "Receptive",
@@ -37686,8 +37683,8 @@
   "Column5": "Personal",
   "Column6": "Domestic",
   "Column7": "Community",
-  "Column8": "Interpersonal \nRelationships",
-  "Column9": "Play and\n Leisure\n Time",
+  "Column8": "Interpersonal Relationships",
+  "Column9": "Play and Leisure Time",
   "Column10": "Coping Skills",
   "Column11": "Gross",
   "SUBDOMAIN v-Scale Scores": "Fine"
@@ -38056,7 +38053,7 @@
   "Column13": 1
  },
  {
-  "Column1": "90%\nConf. Int.",
+  "Column1": "90%Conf. Int.",
   "Column2": "± 1",
   "Column3": "± 1",
   "Column4": "± 2",
@@ -38068,7 +38065,7 @@
   "Column10": "± 2",
   "Column11": "± 1",
   "SUBDOMAIN v-Scale Scores": "± 3",
-  "Column13": "90%\nConf. Int."
+  "Column13": "90%Conf. Int."
  }
 ],
 "Pagina 48":[
@@ -56280,19 +56277,19 @@
   "Table B.3 v-Scale Scores Corresponding to Maladaptive Behavior Subcale and Index Raw Scores": "v-Scale Score",
   "Column3": "Internalizing",
   "Column4": "Externalizing",
-  "Column5": "Maladaptive\nBehavior\nIndex",
+  "Column5": "MaladaptiveBehaviorIndex",
   "Column6": "Internalizing",
   "Column7": "Externalizing",
-  "Column8": "Maladaptive\nBehavior\nIndex",
+  "Column8": "MaladaptiveBehaviorIndex",
   "Column9": "Internalizing",
   "Column10": "Externalizing",
-  "Column11": "Maladaptive\nBehavior\nIndex",
+  "Column11": "MaladaptiveBehaviorIndex",
   "Column12": "Internalizing",
   "Column13": "Externalizing",
-  "Column14": "Maladaptive\nBehavior\nIndex",
+  "Column14": "MaladaptiveBehaviorIndex",
   "Column15": "Internalizing",
   "Column16": "Externalizing",
-  "Column17": "Maladaptive\nBehavior\nIndex",
+  "Column17": "MaladaptiveBehaviorIndex",
   "Column18": "v-Scale Score"
  },
  {
@@ -56762,16 +56759,16 @@
  },
  {
   "Table C.1 Confidence Intervals for Subdomain v-Scale Scores": "Age",
-  "Column3": "Confidence\nLevel (%)",
+  "Column3": "ConfidenceLevel (%)",
   "Column4": "Receptive",
   "Column5": "Expressive",
   "Column6": "Written",
   "Column7": "Personal",
   "Column8": "Domestic",
   "Column9": "Community",
-  "Column10": "Interpersonal\nRelationships",
-  "Column11": "Play and\nLeisure\nTime",
-  "Column12": "Coping\nSkills",
+  "Column10": "InterpersonalRelationships",
+  "Column11": "Play andLeisureTime",
+  "Column12": "CopingSkills",
   "Column13": "Gross",
   "Column14": "Fine",
   "Column15": "Age"
@@ -57661,12 +57658,12 @@
  null,
  {
   "Table C.2 Confidence Intervals for Domain and Adaptive Behavior Composite Standard Scores": "Age",
-  "Column3": "Confidence\nLevel (%)",
+  "Column3": "ConfidenceLevel (%)",
   "Column4": "Communication",
   "Column5": "Daily Living Skills",
   "Column6": "Socialization ",
   "Column7": "Motor Skills a",
-  "Column8": "Adaptive Behavior\nComposite",
+  "Column8": "Adaptive BehaviorComposite",
   "Column9": "Age"
  },
  {
@@ -58197,14 +58194,14 @@
  },
  null,
  {
-  "Table C.3 Percentile Rank and Stanines Corresponding to Domain Standard Scores and the Adaptive": "Standard\nScore",
-  "Column3": "Percentile \nRank",
+  "Table C.3 Percentile Rank and Stanines Corresponding to Domain Standard Scores and the Adaptive": "StandardScore",
+  "Column3": "Percentile Rank",
   "Column4": "Stanine",
-  "Column5": "Standard\nScore",
-  "Column7": "Standard\nScore",
-  "Column8": "Percentile \nRank",
+  "Column5": "StandardScore",
+  "Column7": "StandardScore",
+  "Column8": "Percentile Rank",
   "Column9": "Stanine",
-  "Column10": "Standard\nScore"
+  "Column10": "StandardScore"
  },
  {
   "Table C.3 Percentile Rank and Stanines Corresponding to Domain Standard Scores and the Adaptive": "Above 148",
@@ -58665,7 +58662,7 @@
   "Column10": "Below 20 or 35"
  },
  {
-  "Column6": "Adapted from Grossman, H.H. (Ed.). Classification in Mental Retardation\n(1983revision). Washington, DC: American Association of Mental\nDeficiency, 1983, p. 13."
+  "Column6": "Adapted from Grossman, H.H. (Ed.). Classification in Mental Retardation(1983revision). Washington, DC: American Association of MentalDeficiency, 1983, p. 13."
  },
  null,
  null,
@@ -58674,12 +58671,12 @@
  },
  null,
  {
-  "Column2": "Age\nEquivalent",
+  "Column2": "AgeEquivalent",
   "Column3": "Communication",
   "Column6": "Daily Living Skills",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "Age\nEquivalent"
+  "Column14": "AgeEquivalent"
  },
  {
   "Column3": "Receptive",
@@ -58688,9 +58685,9 @@
   "Column6": "Personal ",
   "Table C.4 Adaptive Levels Corresponding to Subdomain v-Scale Scores, and Domain and Adaptive Behavior Composite Standard Scores": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal\nRelationships",
-  "Column10": "Play and\nLeisure\nTime",
-  "Column11": "Coping\n Skills",
+  "Column9": "InterpersonalRelationships",
+  "Column10": "Play andLeisureTime",
+  "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
  },
@@ -59327,12 +59324,12 @@
 "Pagina 72":[
  null,
  {
-  "Table C.5 Continued": "Age\nEquivalent",
+  "Table C.5 Continued": "AgeEquivalent",
   "Column3": "Communication",
   "Column6": "Daily Living Skills",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "Age\nEquivalent"
+  "Column14": "AgeEquivalent"
  },
  {
   "Column3": "Receptive",
@@ -59341,9 +59338,9 @@
   "Column6": "Personal ",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal\nRelationships",
-  "Column10": "Play and\nLeisure\nTime",
-  "Column11": "Coping\n Skills",
+  "Column9": "InterpersonalRelationships",
+  "Column10": "Play andLeisureTime",
+  "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
  },
@@ -60206,12 +60203,12 @@
 "Pagina 73":[
  null,
  {
-  "Table C.5 Continued": "Age\nEquivalent",
+  "Table C.5 Continued": "AgeEquivalent",
   "Column3": "Communication",
   "Column6": "Daily Living Skills",
   "Column9": "Socialization",
   "Column12": "Motor Skills",
-  "Column14": "Age\nEquivalent"
+  "Column14": "AgeEquivalent"
  },
  {
   "Column3": "Receptive",
@@ -60220,9 +60217,9 @@
   "Column6": "Personal ",
   "Column7": "Domestic",
   "Column8": "Community",
-  "Column9": "Interpersonal\nRelationships",
-  "Column10": "Play and\nLeisure\nTime",
-  "Column11": "Coping\n Skills",
+  "Column9": "InterpersonalRelationships",
+  "Column10": "Play andLeisureTime",
+  "Column11": "Coping Skills",
   "Column12": "Gross",
   "Column13": "Fine"
  },
@@ -61090,10 +61087,10 @@
  null,
  {
   "Table C.6 Confidence Intervals for Maladaptive ": "Age",
-  "Column3": "Confidence \nInterval (%)",
+  "Column3": "Confidence Interval (%)",
   "Column4": "Internalizing ",
   "Column5": "Externalizing",
-  "Column6": "Maladaptive\nBehavior Index",
+  "Column6": "MaladaptiveBehavior Index",
   "Table C.7 Levels Corresponding to Maladaptive": "Level",
   "Column9": "v-Scale Score"
  },
