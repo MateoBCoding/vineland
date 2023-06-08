@@ -3,9 +3,8 @@
  {
   "Column1": "Table B.1: Scale Scores corresponding to Subdomain Raw Score"
  },
- null,
  {
-  "Column1": "0:0:0-0:0:30"
+  "age": "0:0:0-0:0:30"
  },
  {
   "Column2": "Communication",
@@ -205,7 +204,7 @@
   "Column8": "-",
   "Column9": "1",
   "Column10": "-",
-  "SUBDOMAIN v-scale Score": "-",
+  "Column11": "-",
   "Column12": "-",
   "Column13": 13
  },
@@ -407,7 +406,7 @@
  null,
  null,
  {
-  "Column1": "0:1:0-0:1:30"
+  "age": "0:1:0-0:1:30"
  },
  {
   "Column1": " v-scale Score",
