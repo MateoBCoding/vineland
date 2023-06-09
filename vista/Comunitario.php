@@ -5,12 +5,15 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
   header('location:login/login.php');
   
 }
-if($_GET["total"] != null){
+if (empty($_SESSION['domestico'])) {
+    if($_GET["total"] != null){
     
-    $total = $_GET["total"];
-    
-    $_SESSION['domestico'] = $total;
+        $total = $_GET["total"];
+        
+        $_SESSION['domestico'] = $total;
+    }
 }
+
 ?>
 
 <!-- primero se carga el topbar -->

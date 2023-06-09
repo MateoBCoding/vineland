@@ -3,43 +3,46 @@ session_start();
 if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
     header('location:login/login.php');
 }
-$identrevistado = $_POST["identrevistado"];
-$nombrecompleto = $_POST["nombre"];
-$fecha_n = $_POST["fecha_n"];
-$email = $_POST["email"];
-$telef = $_POST["telefono"];
-$genero = $_POST["sexo"];
-$grado = $_POST["grado"];
-$gradomax = $_POST["gradomax"];
-$colegio = $_POST["colegio"];
-$diagnosis = $_POST["diagnosis"];
-$edadcronologica = $_POST["edad"];
-$razon = $_POST["razon"];
+if (isset($_POST["identrevistado"])) {
+    $identrevistado = $_POST["identrevistado"];
+    $nombrecompleto = $_POST["nombre"];
+    $fecha_n = $_POST["fecha_n"];
+    $email = $_POST["email"];
+    $telef = $_POST["telefono"];
+    $genero = $_POST["sexo"];
+    $grado = $_POST["grado"];
+    $gradomax = $_POST["gradomax"];
+    $colegio = $_POST["colegio"];
+    $diagnosis = $_POST["diagnosis"];
+    $edadcronologica = $_POST["edad"];
+    $razon = $_POST["razon"];
+    
+    $idresponder = $_POST["idrespondedor"];
+    $nombrecompletorespon = $_POST["nombrerespondedor"];
+    $generorespon = $_POST["sexorespondedor"];
+    $tiporelacion = $_POST["relacion"];
+    $telefonoresp = $_POST["telefonorespondedor"];
+    
+    $_SESSION["identrevistado"] = $identrevistado;
+    $_SESSION["nombre"] = $nombrecompleto;
+    $_SESSION["fecha_n"] = $fecha_n;
+    $_SESSION["email"] = $email;
+    $_SESSION["telefono"] = $telef;
+    $_SESSION["sexo"] = $genero;
+    $_SESSION["grado"] = $grado;
+    $_SESSION["gradomax"] = $gradomax;
+    $_SESSION["colegio"] = $colegio;
+    $_SESSION["diagnosis"] = $diagnosis;
+    $_SESSION["edad"] = $edadcronologica;
+    $_SESSION["razon"] = $razon;
+    
+    $_SESSION["idrespondedor"] = $idresponder;
+    $_SESSION["nombreresopondedor"] = $nombrecompletorespon;
+    $_SESSION["sexorespondedor"] = $generorespon;
+    $_SESSION["relacion"] = $tiporelacion;
+    $_SESSION["telefonorespondedor"] = $telefonoresp;
+}
 
-$idresponder = $_POST["idrespondedor"];
-$nombrecompletorespon = $_POST["nombrerespondedor"];
-$generorespon = $_POST["sexorespondedor"];
-$tiporelacion = $_POST["relacion"];
-$telefonoresp = $_POST["telefonorespondedor"];
-
-$_SESSION["identrevistado"] = $identrevistado;
-$_SESSION["nombre"] = $nombrecompleto;
-$_SESSION["fecha_n"] = $fecha_n;
-$_SESSION["email"] = $email;
-$_SESSION["telefono"] = $telef;
-$_SESSION["sexo"] = $genero;
-$_SESSION["grado"] = $grado;
-$_SESSION["gradomax"] = $gradomax;
-$_SESSION["colegio"] = $colegio;
-$_SESSION["diagnosis"] = $diagnosis;
-$_SESSION["edad"] = $edadcronologica;
-$_SESSION["razon"] = $razon;
-
-$_SESSION["idrespondedor"] = $idresponder;
-$_SESSION["nombreresopondedor"] = $nombrecompletorespon;
-$_SESSION["sexorespondedor"] = $generorespon;
-$_SESSION["relacion"] = $tiporelacion;
-$_SESSION["telefonorespondedor"] = $telefonoresp;
 
 
 ?>
@@ -56,15 +59,15 @@ $_SESSION["telefonorespondedor"] = $telefonoresp;
     <div class="page-content">
         <section class="step-wizard">
             <ul class="step-wizard-list">
-                <li class="step-wizard-item current-item">
+                <li class="step-wizard-item current-item highlight">
                     <span class="progress-count">1</span>
                     <span class="progress-label">Receptiva</span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item highlight">
                     <span class="progress-count">2</span>
                     <span class="progress-label">Expresiva</span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item highlight">
                     <span class="progress-count">3</span>
                     <span class="progress-label">Escritura</span>
                 </li>
@@ -132,7 +135,6 @@ $_SESSION["telefonorespondedor"] = $telefonoresp;
                 Puntaje en Subdominio Receptiva<input type="text" name="" id="total">
                 <button id="btnevaluar" value="presionado" type="submit" class="btn btn-primary btn-rounded">Siguiente</button>
                 <button id="btncargar" class="btn btn-primary btn-rounded" onclick="ReglaBasal()">Evaluar</button>
-
             </form>
 
         </section>

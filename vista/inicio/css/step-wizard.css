@@ -100,3 +100,24 @@
 .current-item .progress-count{
     color: #21d4fd;
 }
+.step-wizard-item.highlight {
+    border: 2px solid rgb(0, 157, 255);
+    
+}
+
+.step-wizard-item.highlight + .step-wizard-item.highlight {
+    border-left: none;
+}
+.step-wizard-item.highlight:first-child {
+    border-right:none;
+}
+.step-wizard-item.highlight:not(:first-child) {
+    border-left: 2px solid red;
+}
+.step-wizard-item.highlight + .step-wizard-item.highlight + .step-wizard-item.highlight {
+    border-left: none;
+}
+/* estoy mirando si el hay forma de juntar de a dos o tres elementos para a cada uno ponerle el estilo indicado  */
+.step-wizard-item.highlight:last-child{
+    border-right: 2px solid rgb(0, 157, 255);
+}

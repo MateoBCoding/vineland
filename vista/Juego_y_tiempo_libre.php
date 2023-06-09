@@ -4,12 +4,15 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
   header('location:login/login.php');
   
 }
-if($_GET["total"] != null){
+if (empty($_SESSION['interpersonales'])) {
+    if($_GET["total"] != null){
     
-    $total = $_GET["total"];
-    
-    $_SESSION['interpersonales'] = $total;
+        $total = $_GET["total"];
+        
+        $_SESSION['interpersonales'] = $total;
+    }
 }
+
 ?>
 
 <!-- primero se carga el topbar -->
