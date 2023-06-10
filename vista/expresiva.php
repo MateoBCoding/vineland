@@ -117,7 +117,7 @@ if (empty($_SESSION['receptiva'])) {
                     Puntaje en Subdominio Receptiva<input type="text" name="" id="expresiva">
                 </div>
                 <button id="btnexpresiva" value="presionado" type="submit" class="btn btn-primary btn-rounded">Siguiente</button>
-                <button id="btncargar" class="btn btn-primary btn-rounded" onclick="ReglaBasal()">Evaluar</button>
+                <button id="btncargar" class="btn btn-primary btn-rounded">Evaluar</button>
             </form>
         </section>
 

@@ -54,7 +54,7 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
                                     edad.meses = Math.floor((diff % 31557600000) / 2629800000); // 1 mes en milisegundos
                                     edad.dias = Math.floor(((diff % 31557600000) % 2629800000) / 86400000); // 1 día en milisegundos
 
-                                    var edadTexto = `${edad.años} años, ${edad.meses} meses y ${edad.dias} días`;
+                                    var edadTexto = `${edad.años}:${edad.meses}:${edad.dias}`;
                                     document.getElementById("edad").value = edadTexto;
                                 }
                             </script>
