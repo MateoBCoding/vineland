@@ -12,6 +12,16 @@ if (empty($_SESSION['fina'])) {
     }
 }
 
+
+/*
+Primero hay una un foreach que se va a meter a la pagina, despues va a haber un foreach que se metera a cada Rango:[
+
+Cuando este ene este rango , se evaluarala el AGE, si cumple entonces se mete a datos, en datos es donde se sacan los valores, 
+si no cumple entonces no se mete y sigue corriendo.
+
+*/
+
+
 $v_raw1 = 0;
 $v_raw2 = 0;
 $v_raw3 = 0;
@@ -71,20 +81,14 @@ foreach ($data['Pagina ' . $numero] as $item) {
 
         if ($minutosCronologicos < $minutosmax && $minutosCronologicos >= $minutosmin) {
             $age = $item['age'];
-        }
-    }
-    if (isset($item['datos'])) {
-        echo "aggh"; 
-        if ($item['age'] == $age) {
-        foreach ($item['datos'] as $datos) {
-            if (isset($datos['SUBDOMAIN v-Scale Scores'])) {
-                $caso1 = true;  
+            // aqui podria ir la parte del codigo donde se obtiene lo demas, ya que el rpoblema es la AGE, se puede meter en el mismo}
+            foreach ($item['datos'] as $datos) {
+                if (isset($datos['SUBDOMAIN v-Scale Scores'])) {
+                    $caso1 = true;
                     $valor = $datos['Column14'];
-                
-            }
-            if (isset($caso1)) {
+                }
+                if (isset($caso1)) {
 
-                if ($caso1) {
                     // cambiar esto para que la columna no encierre a todos
                     if (isset($datos['Column3'])) {
                         $jreceptiva = $datos['Column3'];
@@ -241,174 +245,171 @@ foreach ($data['Pagina ' . $numero] as $item) {
                         }
                     }
                 }
-            }
+                //
+                //
+                //              Mirar cual esta agrupando cual para revisar
+                //
+                elseif (isset($datos['Column1']) && is_numeric($datos['Column1'])) {
 
+                    $valor = $datos['Column1'];
 
-            //
-            //
-            //              Mirar cual esta agrupando cual para revisar
-            //
-            elseif (isset($datos['Column1']) && is_numeric($datos['Column1'])) {
-
-                $valor = $datos['Column1'];
-
-                if (isset($datos['Column2'])) {
-                    $jreceptiva = $datos['Column2'];
-                    if (strpos($jreceptiva, '-') !== false) {
-                        $jreceptiva = explode('-', $jreceptiva);
+                    if (isset($datos['Column2'])) {
+                        $jreceptiva = $datos['Column2'];
+                        if (strpos($jreceptiva, '-') !== false) {
+                            $jreceptiva = explode('-', $jreceptiva);
+                        }
+                        if (
+                            is_array($jreceptiva) && intval($_SESSION['receptiva']) >= intval($jreceptiva[0])
+                            && intval($_SESSION['receptiva']) < intval($jreceptiva[1])
+                        ) {
+                            $v_raw1 = $valor;
+                        } elseif ($_SESSION['receptiva'] == $jreceptiva) {
+                            $v_raw1 = $valor;
+                        }
                     }
-                    if (
-                        is_array($jreceptiva) && intval($_SESSION['receptiva']) >= intval($jreceptiva[0])
-                        && intval($_SESSION['receptiva']) < intval($jreceptiva[1])
-                    ) {
-                        $v_raw1 = $valor;
-                    } elseif ($_SESSION['receptiva'] == $jreceptiva) {
-                        $v_raw1 = $valor;
+                    if (isset($datos['Column3'])) {
+                        $jexpresiva = $datos['Column3'];
+                        if (strpos($jexpresiva, '-') !== false) {
+                            $jexpresiva = explode('-', $jexpresiva);
+                        }
+                        if (
+                            is_array($jexpresiva) && intval($_SESSION['expresiva']) >= intval($jexpresiva[0])
+                            && intval($_SESSION['expresiva']) < intval($jexpresiva[1])
+                        ) {
+                            $v_raw2 = $valor;
+                        } elseif ($_SESSION['expresiva'] === $jexpresiva) {
+                            $v_raw2 = $valor;
+                        }
                     }
-                }
-                if (isset($datos['Column3'])) {
-                    $jexpresiva = $datos['Column3'];
-                    if (strpos($jexpresiva, '-') !== false) {
-                        $jexpresiva = explode('-', $jexpresiva);
+                    if (isset($datos['Column4'])) {
+                        $jescritura = $datos['Column4'];
+                        if (strpos($jescritura, '-') !== false) {
+                            $jescritura = explode('-', $jescritura);
+                        }
+                        if (
+                            is_array($jescritura) && intval($_SESSION['escritura']) >= intval($jescritura[0])
+                            && intval($_SESSION['escritura']) < intval($jescritura[1])
+                        ) {
+                            $v_raw7 = $valor;
+                        } elseif ($_SESSION['escritura'] === $jescritura) {
+                            $v_raw7 = $valor;
+                        }
                     }
-                    if (
-                        is_array($jexpresiva) && intval($_SESSION['expresiva']) >= intval($jexpresiva[0])
-                        && intval($_SESSION['expresiva']) < intval($jexpresiva[1])
-                    ) {
-                        $v_raw2 = $valor;
-                    } elseif ($_SESSION['expresiva'] === $jexpresiva) {
-                        $v_raw2 = $valor;
+                    if (isset($datos['Column5'])) {
+                        $jpersonal = $datos['Column5'];
+                        if (strpos($jpersonal, '-') !== false) {
+                            $jpersonal = explode('-', $jpersonal);
+                        }
+                        if (
+                            is_array($jpersonal) && intval($_SESSION['personal']) >= intval($jpersonal[0])
+                            && intval($_SESSION['personal']) < intval($jpersonal[1])
+                        ) {
+                            $v_raw5 = $valor;
+                        } elseif ($_SESSION['personal'] === $jpersonal) {
+                            $v_raw5 = $valor;
+                        }
                     }
-                }
-                if (isset($datos['Column4'])) {
-                    $jescritura = $datos['Column4'];
-                    if (strpos($jescritura, '-') !== false) {
-                        $jescritura = explode('-', $jescritura);
+                    if (isset($datos['Column6'])) {
+                        $jDomestico = $datos['Column6'];
+                        if (strpos($jDomestico, '-') !== false) {
+                            $jDomestico = explode('-', $jDomestico);
+                        }
+                        if (
+                            is_array($jDomestico) && intval($_SESSION['domestico']) >= intval($jDomestico[0])
+                            && intval($_SESSION['domestico']) < intval($jDomestico[1])
+                        ) {
+                            $v_raw6 = $valor;
+                        } elseif ($_SESSION['domestico'] === $jDomestico) {
+                            $v_raw6 = $valor;
+                        }
                     }
-                    if (
-                        is_array($jescritura) && intval($_SESSION['escritura']) >= intval($jescritura[0])
-                        && intval($_SESSION['escritura']) < intval($jescritura[1])
-                    ) {
-                        $v_raw7 = $valor;
-                    } elseif ($_SESSION['escritura'] === $jescritura) {
-                        $v_raw7 = $valor;
+                    if (isset($datos['Column7'])) {
+                        $jComunitario = $datos['Column7'];
+                        if (strpos($jComunitario, '-') !== false) {
+                            $jComunitario = explode('-', $jComunitario);
+                        }
+                        if (
+                            is_array($jComunitario) && intval($_SESSION['comunitario']) >= intval($jComunitario[0])
+                            && intval($_SESSION['comunitario']) < intval($jComunitario[1])
+                        ) {
+                            $v_raw3 = $valor;
+                        } elseif ($_SESSION['comunitario'] === $jComunitario) {
+                            $v_raw3 = $valor;
+                        }
                     }
-                }
-                if (isset($datos['Column5'])) {
-                    $jpersonal = $datos['Column5'];
-                    if (strpos($jpersonal, '-') !== false) {
-                        $jpersonal = explode('-', $jpersonal);
+                    if (isset($datos['Column8'])) {
+                        $jinterpersonal = $datos['Column8'];
+                        if (strpos($jinterpersonal, '-') !== false) {
+                            $jinterpersonal = explode('-', $jinterpersonal);
+                        }
+                        if (
+                            is_array($jinterpersonal) && intval($_SESSION['interpersonales']) >= intval($jinterpersonal[0])
+                            && intval($_SESSION['interpersonales']) < intval($jinterpersonal[1])
+                        ) {
+                            $v_raw9 = $valor;
+                        } elseif ($_SESSION['interpersonales'] === $jinterpersonal) {
+                            $v_raw9 = $valor;
+                        }
                     }
-                    if (
-                        is_array($jpersonal) && intval($_SESSION['personal']) >= intval($jpersonal[0])
-                        && intval($_SESSION['personal']) < intval($jpersonal[1])
-                    ) {
-                        $v_raw5 = $valor;
-                    } elseif ($_SESSION['personal'] === $jpersonal) {
-                        $v_raw5 = $valor;
+                    if (isset($datos['Column9'])) {
+                        $jgame = $datos['Column9'];
+                        if (strpos($jgame, '-') !== false) {
+                            $jgame = explode('-', $jgame);
+                        }
+                        if (
+                            is_array($jgame) && intval($_SESSION['juego']) >= intval($jgame[0])
+                            && intval($_SESSION['juego']) < intval($jgame[1])
+                        ) {
+                            $v_raw4 = $valor;
+                        } elseif ($_SESSION['juego'] === $jgame) {
+                            $v_raw4 = $valor;
+                        }
                     }
-                }
-                if (isset($datos['Column6'])) {
-                    $jDomestico = $datos['Column6'];
-                    if (strpos($jDomestico, '-') !== false) {
-                        $jDomestico = explode('-', $jDomestico);
+                    if (isset($datos['Column10'])) {
+                        $jafrontamiento = $datos['Column10'];
+                        if (strpos($jafrontamiento, '-') !== false) {
+                            $jafrontamiento = explode('-', $jafrontamiento);
+                        }
+                        if (
+                            is_array($jafrontamiento) && intval($_SESSION['afrontamiento']) >= intval($jafrontamiento[0])
+                            && intval($_SESSION['afrontamiento']) < intval($jafrontamiento[1])
+                        ) {
+                            $v_raw8 = $valor;
+                        } elseif ($_SESSION['afrontamiento'] === $jafrontamiento) {
+                            $v_raw8 = $valor;
+                        }
                     }
-                    if (
-                        is_array($jDomestico) && intval($_SESSION['domestico']) >= intval($jDomestico[0])
-                        && intval($_SESSION['domestico']) < intval($jDomestico[1])
-                    ) {
-                        $v_raw6 = $valor;
-                    } elseif ($_SESSION['domestico'] === $jDomestico) {
-                        $v_raw6 = $valor;
+                    if (isset($datos['Column11'])) {
+                        $jgruesa = $datos['Column11'];
+                        if (strpos($jgruesa, '-') !== false) {
+                            $jgruesa = explode('-', $jgruesa);
+                        }
+                        if (
+                            is_array($jgruesa) && intval($_SESSION['gruesa']) >= intval($jgruesa[0])
+                            && intval($_SESSION['gruesa']) < intval($jgruesa[1])
+                        ) {
+                            $v_raw10 = $valor;
+                        } elseif ($_SESSION['gruesa'] === $jgruesa) {
+                            $v_raw10 = $valor;
+                        }
                     }
-                }
-                if (isset($datos['Column7'])) {
-                    $jComunitario = $datos['Column7'];
-                    if (strpos($jComunitario, '-') !== false) {
-                        $jComunitario = explode('-', $jComunitario);
-                    }
-                    if (
-                        is_array($jComunitario) && intval($_SESSION['comunitario']) >= intval($jComunitario[0])
-                        && intval($_SESSION['comunitario']) < intval($jComunitario[1])
-                    ) {
-                        $v_raw3 = $valor;
-                    } elseif ($_SESSION['comunitario'] === $jComunitario) {
-                        $v_raw3 = $valor;
-                    }
-                }
-                if (isset($datos['Column8'])) {
-                    $jinterpersonal = $datos['Column8'];
-                    if (strpos($jinterpersonal, '-') !== false) {
-                        $jinterpersonal = explode('-', $jinterpersonal);
-                    }
-                    if (
-                        is_array($jinterpersonal) && intval($_SESSION['interpersonales']) >= intval($jinterpersonal[0])
-                        && intval($_SESSION['interpersonales']) < intval($jinterpersonal[1])
-                    ) {
-                        $v_raw9 = $valor;
-                    } elseif ($_SESSION['interpersonales'] === $jinterpersonal) {
-                        $v_raw9 = $valor;
-                    }
-                }
-                if (isset($datos['Column9'])) {
-                    $jgame = $datos['Column9'];
-                    if (strpos($jgame, '-') !== false) {
-                        $jgame = explode('-', $jgame);
-                    }
-                    if (
-                        is_array($jgame) && intval($_SESSION['juego']) >= intval($jgame[0])
-                        && intval($_SESSION['juego']) < intval($jgame[1])
-                    ) {
-                        $v_raw4 = $valor;
-                    } elseif ($_SESSION['juego'] === $jgame) {
-                        $v_raw4 = $valor;
-                    }
-                }
-                if (isset($datos['Column10'])) {
-                    $jafrontamiento = $datos['Column10'];
-                    if (strpos($jafrontamiento, '-') !== false) {
-                        $jafrontamiento = explode('-', $jafrontamiento);
-                    }
-                    if (
-                        is_array($jafrontamiento) && intval($_SESSION['afrontamiento']) >= intval($jafrontamiento[0])
-                        && intval($_SESSION['afrontamiento']) < intval($jafrontamiento[1])
-                    ) {
-                        $v_raw8 = $valor;
-                    } elseif ($_SESSION['afrontamiento'] === $jafrontamiento) {
-                        $v_raw8 = $valor;
-                    }
-                }
-                if (isset($datos['Column11'])) {
-                    $jgruesa = $datos['Column11'];
-                    if (strpos($jgruesa, '-') !== false) {
-                        $jgruesa = explode('-', $jgruesa);
-                    }
-                    if (
-                        is_array($jgruesa) && intval($_SESSION['gruesa']) >= intval($jgruesa[0])
-                        && intval($_SESSION['gruesa']) < intval($jgruesa[1])
-                    ) {
-                        $v_raw10 = $valor;
-                    } elseif ($_SESSION['gruesa'] === $jgruesa) {
-                        $v_raw10 = $valor;
-                    }
-                }
-                if (isset($datos['Column12'])) {
-                    $jfina = $datos['Column12'];
-                    if (strpos($jfina, '-') !== false) {
-                        $jfina = explode('-', $jfina);
-                    }
-                    if (
-                        is_array($jfina) && intval($_SESSION['fina']) >= intval($jfina[0])
-                        && intval($_SESSION['fina']) < intval($jfina[1])
-                    ) {
-                        $v_raw11 = $valor;
-                    } elseif ($_SESSION['fina'] === $jfina) {
-                        $v_raw11 = $valor;
+                    if (isset($datos['Column12'])) {
+                        $jfina = $datos['Column12'];
+                        if (strpos($jfina, '-') !== false) {
+                            $jfina = explode('-', $jfina);
+                        }
+                        if (
+                            is_array($jfina) && intval($_SESSION['fina']) >= intval($jfina[0])
+                            && intval($_SESSION['fina']) < intval($jfina[1])
+                        ) {
+                            $v_raw11 = $valor;
+                        } elseif ($_SESSION['fina'] === $jfina) {
+                            $v_raw11 = $valor;
+                        }
                     }
                 }
             }
         }
-    }
     }
 }
 ?>
