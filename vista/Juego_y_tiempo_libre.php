@@ -113,7 +113,7 @@ if (empty($_SESSION['interpersonales'])) {
                 Puntaje en Subdominio Receptiva<input type="text" name="" id="total">
 				</div>
                 <button id="btnevaluar" value="presionado" type="submit" class="btn btn-primary btn-rounded">Siguiente</button>
-                <button id="btncargar" class="btn btn-primary btn-rounded" onclick="ReglaBasal()">Evaluar</button>
+                <button id="btncargar" class="btn btn-primary btn-rounded">Evaluar</button>
         </section>
 
 

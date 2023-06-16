@@ -134,7 +134,7 @@ if (isset($_POST["identrevistado"])) {
                 Numero de 0<input type="text" name="" id="m0">
                 Puntaje en Subdominio Receptiva<input type="text" name="" id="total">
                 <button id="btnevaluar" value="presionado" type="submit" class="btn btn-primary btn-rounded">Siguiente</button>
-                <button id="btncargar" class="btn btn-primary btn-rounded" onclick="ReglaBasal()">Evaluar</button>
+                <button id="btncargar" class="btn btn-primary btn-rounded">Evaluar</button>
             </form>
 
         </section>
