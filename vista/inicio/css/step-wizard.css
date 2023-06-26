@@ -15,6 +15,7 @@
     padding: 20px 10px;
     position: relative;
     z-index: 10;
+
 }
 
 .step-wizard-item{
@@ -100,24 +101,47 @@
 .current-item .progress-count{
     color: #21d4fd;
 }
-.step-wizard-item.highlight {
-    border: 2px solid rgb(0, 157, 255);
-    
+.izquierda {
+    border: 2px solid #21d4fd;
+    border-right: none;
+    margin-left: 2px;
+}
+.derecha {
+    border: 2px solid #21d4fd;
+    border-left: none;
+}
+.centro{
+    border: 2px solid #21d4fd;
+    border-left: none;
+    border-right: none;
 }
 
-.step-wizard-item.highlight + .step-wizard-item.highlight {
-    border-left: none;
+.step-wizard-item:not(.last-left):not(.last-right)::before {
+    content: attr(data-words);
+    position: absolute;
+    font-weight: bold;
+    left: 20%;
+    top:-30%;
+    margin-bottom: 15px;
+    font-size: 1rem;
 }
-.step-wizard-item.highlight:first-child {
-    border-right:none;
+
+.last-left::before {
+    content: attr(data-words);
+    position: absolute;
+    font-weight: bold;
+    left: 10%;
+    top:-30%;
+    margin-bottom: 15px;
+    font-size: 1rem;
 }
-.step-wizard-item.highlight:not(:first-child) {
-    border-left: 2px solid red;
-}
-.step-wizard-item.highlight + .step-wizard-item.highlight + .step-wizard-item.highlight {
-    border-left: none;
-}
-/* estoy mirando si el hay forma de juntar de a dos o tres elementos para a cada uno ponerle el estilo indicado  */
-.step-wizard-item.highlight:last-child{
-    border-right: 2px solid rgb(0, 157, 255);
+
+.last-right::before {
+    content: attr(data-words);
+    position: absolute;
+    font-weight: bold;
+    right: -7%;
+    top:-30%;
+    margin-bottom: 15px;
+    font-size: 1rem;
 }

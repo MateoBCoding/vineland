@@ -85,11 +85,6 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
                             </div>
 
                             <div class="input-field">
-                                <label>Grado Max</label>
-                                <input id="gradomax" name="gradomax" type="text" placeholder="Ingresa el Grado Maximo cursado" required>
-                            </div>
-
-                            <div class="input-field">
                                 <label>Colegio/Otros</label>
                                 <input id="colegio" name="colegio" type="text" placeholder="Ingrese el colegio u otro" required>
                             </div>

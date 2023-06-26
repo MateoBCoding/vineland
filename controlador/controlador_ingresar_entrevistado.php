@@ -18,6 +18,6 @@ $razon =$_SESSION["razon"];
 $sql = $conexion->query("INSERT INTO entrevistados(cedula, idrespon, nombre, idgenero, grado, gradomasalto,
                         colegiouotros, diagnosis, fechanacimiento, edad_cronologica, razon_entrevista)
                         values('$identificacion','$idrespon','$nombrecompleto','$genero','$grado','$gradomax',
-                        '$colegio','$diagnosis','$fecha_n','$edadcronologica','$razon');")
+                        '$colegio','$diagnosis','$fecha_n','$edadcronologica','$razon');");
 
 ?>

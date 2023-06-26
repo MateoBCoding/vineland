@@ -16,13 +16,13 @@ if (isset($_POST["identrevistado"])) {
     $diagnosis = $_POST["diagnosis"];
     $edadcronologica = $_POST["edad"];
     $razon = $_POST["razon"];
-    
+
     $idresponder = $_POST["idrespondedor"];
     $nombrecompletorespon = $_POST["nombrerespondedor"];
     $generorespon = $_POST["sexorespondedor"];
     $tiporelacion = $_POST["relacion"];
     $telefonoresp = $_POST["telefonorespondedor"];
-    
+
     $_SESSION["identrevistado"] = $identrevistado;
     $_SESSION["nombre"] = $nombrecompleto;
     $_SESSION["fecha_n"] = $fecha_n;
@@ -35,7 +35,7 @@ if (isset($_POST["identrevistado"])) {
     $_SESSION["diagnosis"] = $diagnosis;
     $_SESSION["edad"] = $edadcronologica;
     $_SESSION["razon"] = $razon;
-    
+
     $_SESSION["idrespondedor"] = $idresponder;
     $_SESSION["nombreresopondedor"] = $nombrecompletorespon;
     $_SESSION["sexorespondedor"] = $generorespon;
@@ -59,47 +59,47 @@ if (isset($_POST["identrevistado"])) {
     <div class="page-content">
         <section class="step-wizard">
             <ul class="step-wizard-list">
-                <li class="step-wizard-item current-item highlight">
+                <li class="step-wizard-item current-item izquierda">
                     <span class="progress-count">1</span>
                     <span class="progress-label">Receptiva</span>
                 </li>
-                <li class="step-wizard-item highlight">
+                <li class="step-wizard-item centro" data-words="Comunicacion">
                     <span class="progress-count">2</span>
                     <span class="progress-label">Expresiva</span>
                 </li>
-                <li class="step-wizard-item highlight">
+                <li class="step-wizard-item derecha">
                     <span class="progress-count">3</span>
                     <span class="progress-label">Escritura</span>
                 </li>
-                <li class="step-wizard-item">
-                    <span class="progress-count">4</span>
+                <li class="step-wizard-item izquierda last-right" data-words="Habilidades"">
+                    <span class=" progress-count">4</span>
                     <span class="progress-label">Personal</span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item centro" data-words="de la Vida">
                     <span class="progress-count">5</span>
                     <span class="progress-label">Domestico</span>
                 </li>
-                <li class="step-wizard-item">
-                    <span class="progress-count">6</span>
+                <li class="step-wizard-item derecha last-left" data-words="Diaria"">
+                    <span class=" progress-count">6</span>
                     <span class="progress-label">Comunitario</span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item izquierda">
                     <span class="progress-count">7</span>
                     <span class="progress-label">Relaciones Interpersonales</span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item centro" data-words="Socializacion">
                     <span class="progress-count">8</span>
                     <span class="progress-label">Juego y Tiempo Libre</span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item derecha">
                     <span class="progress-count">9</span>
                     <span class="progress-label">Habilidades de Afrontamiento </span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item izquierda last-right" data-words="Habilidades">
                     <span class="progress-count">10</span>
                     <span class="progress-label">Gruesa</span>
                 </li>
-                <li class="step-wizard-item">
+                <li class="step-wizard-item derecha last-left" data-words="Motoras">
                     <span class="progress-count">11</span>
                     <span class="progress-label">Fina</span>
                 </li>
@@ -139,8 +139,10 @@ if (isset($_POST["identrevistado"])) {
 
         </section>
         <?php
-        //include("../modelo/conexion.php");
-        //include("../controlador/controlador_ingresar_entrevistado_respondedor.php");
+        include("../modelo/conexion.php");
+        include('../controlador/controlador_ingresar_entrevistado_respondedor.php');
+        include('../controlador/controlador_ingresar_entrevistado.php');
+
         ?>
 
     </div>

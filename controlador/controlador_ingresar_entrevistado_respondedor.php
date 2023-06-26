@@ -1,14 +1,20 @@
 <?php
-$identificacion= $_SESSION["idrespondedor"];
-$nombre=$_SESSION["nombreresopondedor"];
-$generoaso=$_SESSION["sexorespondedor"];
-$tefonoaso=$_SESSION["relacion"];
-$relacionaso=$_SESSION["telefonorespondedor"];
+if (
+  !empty($_SESSION["idrespondedor"]) && !empty($_SESSION["nombreresopondedor"])
+  && !empty($_SESSION["sexorespondedor"]) && !empty($_SESSION["relacion"]) && !empty($_SESSION["telefonorespondedor"])
+) {
 
-$consulta = "INSERT INTO respondedor (idrespondet, nombreResponden, sexoresponden, telefonoresponden, id_relacion) VALUES ('$identificacion', '$nombre', '$generoaso', '$tefonoaso', '$relacionaso')";
-$resultado = $conexion->query($consulta);
+  $identificacion = $_SESSION["idrespondedor"];
+  $nombre = $_SESSION["nombreresopondedor"];
+  $generoaso = $_SESSION["sexorespondedor"];
+  $tefonoaso = $_SESSION["telefonorespondedor"];
+  $relacionaso = $_SESSION["relacion"];
+  
 
-if (!$conexion) {
-  die("La conexión mysqli se ha cerrado antes de lo esperado.");
+  $resultado = $conexion->query("INSERT INTO respondedor (idrespondet, nombreResponden, sexoresponden, telefonoresponden, id_relacion)
+                                VALUES ('$identificacion', '$nombre', '$generoaso', '$tefonoaso', '$relacionaso');");
+
+  if (!$conexion) {
+    die("La conexión mysqli se ha cerrado antes de lo esperado.");
+  }
 }
-?>
