@@ -12,27 +12,48 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
 
 <!-- inicio del contenido principal -->
 
+<?php
+include("../modelo/conexion.php");
+
+$sql = $conexion->query("SELECT ent.nombre,ent.fechanacimiento, 
+respo.nombreResponden, ent.cedula,r.idresultados  
+FROM `resultados` as r
+JOIN entrevistados as ent ON r.identrevistado = ent.cedula 
+JOIN respondedor as respo ON ent.idrespon = respo.idrespondet 
+")
+?>
 
 <div class="page-content">
 
-  <table class="table" id="example">
+  <table class="table table-bordered table-hover col-14" id="example">
     <thead>
       <tr>
-        <th scope="col">Id Usuario</th>
-        <th scope="col">Id Entrevistador</th>
-        <th scope="col">Id Respuesta</th>
-        <th scope="col">Respuesta</th>
-
+        <th scope="col">Id de rsultados</th>
+        <th scope="col">Cedula Entrevistado</th>
+        <th scope="col">Nombre Entrevistado</th>
+        <th scope="col">Fecha Nacimiento</th>
+        <th scope="col">Nombre Acudiente</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
 
+      <?php
+      while ($datos = $sql->fetch_object()) { ?>
+        <tr>
+          <td><?= $datos->idresultados?></td>
+          <td><?= $datos->cedula ?></th>
+          <td><?= $datos->nombre ?></td>
+          <td><?= $datos->fechanacimiento ?></td>
+          <td><?= $datos->nombreResponden ?></td>
+          <td>
+            <a href="../vista/reporte.php?id=<?=$datos->idresultados ?>" target="_blank" class="btn btn-succes">
+              <i class="fa-solid fa-file-pdf"></i>
+            </a>
+          </td>
+        </tr>
+      <?php }
+      ?>
     </tbody>
   </table>
 </div>
