@@ -1,10 +1,11 @@
 <?php
 session_start();
 if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
-  header('location:login/login.php');
+    header('location:login/login.php');
 }
+include_once("../modelo/conexion.php");
+include_once("../modelo/modelo_panel_dashboard.php");
 ?>
-
 <!-- primero se carga el topbar -->
 <?php require('./layout/topbar.php'); ?>
 <!-- luego se carga el sidebar -->
@@ -12,50 +13,63 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
 
 <!-- inicio del contenido principal -->
 
-<?php
-include("../modelo/conexion.php");
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-$sql = $conexion->query("SELECT ent.nombre,ent.fechanacimiento, 
-respo.nombreResponden, ent.cedula,r.idresultados  
-FROM `resultados` as r
-JOIN entrevistados as ent ON r.identrevistado = ent.cedula 
-JOIN respondedor as respo ON ent.idrespon = respo.idrespondet 
-")
+
+    <script type="text/javascript">
+        google.charts.load("current", {
+            packages: ["corechart"]
+        });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Edades de Evaluados'],
+<?php
+                $datagrap = $conexion->query("SELECT edad_cronologica, COUNT(*) AS TotalRegistros
+                    FROM entrevistados
+                    GROUP BY edad_cronologica;");
+                while ($row = $datagrap->fetch_assoc()) {
+                    echo "['" . $row['edad_cronologica'] . "'," . $row['TotalRegistros'] . "],";
+                }
 ?>
+            ]);
+
+            var options = {
+                title: 'My Daily Activities',
+                pieHole: 0.4,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+            chart.draw(data, options);
+        }
+    </script>
+</head>
+
 
 <div class="page-content">
 
-  <table class="table table-bordered table-hover col-14" id="example">
-    <thead>
-      <tr>
-        <th scope="col">Id de rsultados</th>
-        <th scope="col">Cedula Entrevistado</th>
-        <th scope="col">Nombre Entrevistado</th>
-        <th scope="col">Fecha Nacimiento</th>
-        <th scope="col">Nombre Acudiente</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
+    <div class="w3-row-padding w3-margin-bottom">
 
-      <?php
-      while ($datos = $sql->fetch_object()) { ?>
-        <tr>
-          <td><?= $datos->idresultados?></td>
-          <td><?= $datos->cedula ?></th>
-          <td><?= $datos->nombre ?></td>
-          <td><?= $datos->fechanacimiento ?></td>
-          <td><?= $datos->nombreResponden ?></td>
-          <td>
-            <a href="../vista/reporte.php?id=<?=$datos->idresultados ?>" target="_blank" class="btn btn-succes">
-              <i class="fa-solid fa-file-pdf"></i>
-            </a>
-          </td>
-        </tr>
-      <?php }
-      ?>
-    </tbody>
-  </table>
+        <div class="w3-quarter">
+            <div class="w3-container w3-orange w3-text-white w3-padding-16">
+                <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3><?php echo $totalEvaluaciones  ?></h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Users</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="donutchart" style="width: auto; height: 700px;">
+    </div>
 </div>
 
 <!-- fin del contenido principal -->
