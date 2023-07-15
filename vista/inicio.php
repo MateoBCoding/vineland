@@ -18,6 +18,7 @@ include_once("../modelo/modelo_panel_dashboard.php");
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
 
 
     <script type="text/javascript">
@@ -29,23 +30,35 @@ include_once("../modelo/modelo_panel_dashboard.php");
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
                 ['Task', 'Edades de Evaluados'],
-<?php
+                <?php
                 $datagrap = $conexion->query("SELECT edad_cronologica, COUNT(*) AS TotalRegistros
                     FROM entrevistados
                     GROUP BY edad_cronologica;");
                 while ($row = $datagrap->fetch_assoc()) {
                     echo "['" . $row['edad_cronologica'] . "'," . $row['TotalRegistros'] . "],";
                 }
-?>
+                ?>
             ]);
 
             var options = {
-                title: 'My Daily Activities',
+                title: 'Edades Entrevistados',
                 pieHole: 0.4,
             };
 
             var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+
+            google.visualization.events.addListener(chart, 'select', selectHandler);
+
             chart.draw(data, options);
+
+            function selectHandler() {
+                var selectedItem = chart.getSelection()[0];
+                if (selectedItem) {
+                    var option = data.getValue(selectedItem.row, 0);
+                    // Redireccionar a otra página
+                    window.location.href = '../vista/Lista_entrevistados.php?option=' + option;
+                }
+            }
         }
     </script>
 </head>
@@ -62,13 +75,24 @@ include_once("../modelo/modelo_panel_dashboard.php");
                     <h3><?php echo $totalEvaluaciones  ?></h3>
                 </div>
                 <div class="w3-clear"></div>
-                <h4>Users</h4>
+                <h4>Numero de Entrevistas</h4>
+            </div>
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-container w3-green w3-text-white w3-padding-16">
+                <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3><?php echo $totalEnt ?></h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Numero de Usuarios</h4>
             </div>
         </div>
     </div>
 
-
-    <div id="donutchart" style="width: auto; height: 700px;">
+    <h2>Edad</h2>
+    <h3 id="subdominio">Edad de Todos los Entrevistados</h3>
+    <div id="donutchart" style="width: auto; height: 500px;">
     </div>
 </div>
 

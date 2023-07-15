@@ -86,7 +86,43 @@ if ($datos) {
 
     <div class="page-content">
         <section>
-            <table class="table" id="example">
+            <h2>Tabla 1</h2>
+            <h3 id="subdominio">Raw Score por Dominios</h3>
+            <table class="table table-striped table-hover" id="">
+                <thead>
+                    <tr>
+                        <th scope="col">Dominio</th>
+                        <th scope="col">Raw Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Comunicacion</td>
+                        <td><?= intval($datos->Receptiva) + intval($datos->Expresiva) + intval($datos->Escritura) ?></td>
+                    </tr>
+                    <tr>
+                        <td>Habilidades de la Vida Diaria</td>
+                        <td><?= intval($datos->Comunitario) + intval($datos->Domestico) +  intval($datos->Personal) ?></td>
+                    </tr>
+                    <tr>
+                        <td>Socializacion</td>
+                        <td><?= intval($datos->Relaciones_Interpersonales) + intval($datos->Juego_y_tiempo_libre) + intval($datos->Habilidades_afrontamiento) ?></td>
+
+                    </tr>
+                    <tr>
+                        <td>Habilidades Motoras</td>
+                        <td><?= intval($datos->Motricidad_Gruesa) + intval($datos->Motricidad_Fina) ?></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    <p></p>
+    <p></p>
+        <section>
+            <h2>Tabla 2</h2>
+            <h3 id="subdominio">Raw Score por Subdominios</h3>
+            <table class="table table-striped table-hover table-bordered" id="">
                 <thead>
                     <tr>
                         <th scope="col">Subdominio</th>
@@ -94,10 +130,6 @@ if ($datos) {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th>Subdominio</th>
-                        <th>Raw Score</th>
-                    </tr>
                     <tr>
                         <td>Receptiva</td>
                         <td><?= $datos->Receptiva ?></td>
@@ -195,26 +227,24 @@ if ($datos) {
                 });
             </script>
         </section>
+
+        <section>
+            <p>Textarea Conclusion diagnositico</p>
+            <textarea name="Diagnostico" id="diag" cols="100" rows="10"></textarea>
+        </section>
     </div>
 
 </body>
 <!-- por ultimo se carga el footer -->
 <?php require('./layout/footer.php'); ?>
+<script>
+    // Espera a que la página haya terminado de cargar
+    window.onload = function() {
+        // Lanza automáticamente la función de impresión y descarga como PDF
+        printAndDownloadPDF();
+    };
 
-<?php
-
-require_once "../vista/dompdf/autoload.inc.php";
-
-use Dompdf\Dompdf;
-
-// instantiate and use the dompdf class
-$dompdf = new Dompdf();
-$dompdf->set_option('isRemoteEnabled', true); // Habilitar la carga de archivos CSS remotos
-$dompdf->loadHtml($html);
-$dompdf->render();
-
-
-
-// Output the generated PDF to Browser
-$dompdf->stream("archivo_reporte.pdf",array("Attachment" => false));
-?>
+    function printAndDownloadPDF() {
+        window.print();
+    }
+</script>

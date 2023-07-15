@@ -44,8 +44,6 @@
                         <input id="usuario" type="text"
                             class="input" name="usuario"
                             title="ingrese su nombre de usuario" autocomplete="usuario" value="">
-
-
                     </div>
                 </div>
                 <div class="input-div pass">

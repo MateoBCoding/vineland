@@ -15,7 +15,7 @@ if (!empty($_POST["btningresar"])) {
             $_SESSION["idrol"]= $datos->idrol;
             switch ($datos->idrol) {
                 case 1 :
-                    header("location:../acerca.php");
+                    header("location:../inicio.php");
                     break;
                 case 2 :
                     header("location:../registroentrevistado.php");
@@ -32,3 +32,5 @@ if (!empty($_POST["btningresar"])) {
         echo "<div class='alert alert-danger'> los campos estan vacios</div>";
     }
 }
+
+?>

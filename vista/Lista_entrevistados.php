@@ -15,12 +15,23 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
 <?php
 include("../modelo/conexion.php");
 
-$sql = $conexion->query("SELECT ent.nombre,ent.fechanacimiento, 
+if (empty($_GET['option'])) {
+$sql = $conexion->query("SELECT ent.nombre,ent.fechanacimiento,ent.edad_cronologica, 
 respo.nombreResponden, ent.cedula,r.idresultados  
 FROM `resultados` as r
 JOIN entrevistados as ent ON r.identrevistado = ent.cedula 
+JOIN respondedor as respo ON ent.idrespon = respo.idrespondet
+");
+}else{
+$option = $_GET['option'];
+$sql = $conexion->query("SELECT ent.nombre,ent.fechanacimiento,ent.edad_cronologica, ent.cedula,r.idresultados  
+FROM `resultados` as r
+JOIN entrevistados as ent ON r.identrevistado = ent.cedula 
 JOIN respondedor as respo ON ent.idrespon = respo.idrespondet 
-")
+WHERE ent.edad_cronologica = '$option'
+");
+}
+
 ?>
 
 <div class="page-content">

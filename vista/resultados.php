@@ -32,71 +32,106 @@ if (empty($_SESSION['fina'])) {
 
     <div class="page-content">
         <section>
-            <table class="table" id="example">
+            <h2>Tabla 1</h2>
+            <h3 id="subdominio">Raw Score por Dominios</h3>
+            <table class="table table-striped table-hover" id="">
                 <thead>
                     <tr>
-                        <th scope="col">Subdominio</th>
+                        <th scope="col">Dominio</th>
                         <th scope="col">Raw Score</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Subdominio</th>
-                        <th>Raw Score</th>
+                        <td>Comunicacion</td>
+                        <td><?= intval($_SESSION['receptiva']) + intval($_SESSION['expresiva']) + intval($_SESSION['escritura']) ?></td>
                     </tr>
+                    <tr>
+                        <td>Habilidades de la Vida Diaria</td>
+                        <td><?= intval($_SESSION['comunitario']) + intval($_SESSION['domestico']) + intval($_SESSION['personal']) ?></td>
+                    </tr>
+                    <tr>
+                        <td>Socializacion</td>
+                        <td><?= intval($_SESSION['interpersonales']) + intval($_SESSION['juego']) + intval($_SESSION['afrontamiento']) ?></td>
+
+                    </tr>
+                    <tr>
+                        <td>Habilidades Motoras</td>
+                        <td><?= intval($_SESSION['gruesa']) + intval($_SESSION['fina']) ?></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <p></p>
+        <p></p>
+        <section>
+            <h2>Tabla 2</h2>
+            <h3 id="subdominio">Raw Score por Subdominios</h3>
+            <table class="table table-striped table-hover" id="">
+                <thead>
+                    <tr>
+                        <th scope="col">Subdominio</th>
+                        <th scope="col">Raw Score</th>
+                        <th scope="col">V-Raw Score</th>
+                    </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Receptiva</td>
                         <td><?= $_SESSION['receptiva'] ?></td>
+                        <td><?php echo $v_raw_values[0] ?></td>
                     </tr>
                     <tr>
                         <td>Expresiva</td>
                         <td><?= $_SESSION['expresiva'] ?></td>
-                    </tr>
-                    <tr>
-                        <td>Comunitario</td>
-                        <td><?= $_SESSION['comunitario'] ?></td>
-
-                    </tr>
-                    <tr>
-                        <td>Juego</td>
-                        <td><?= $_SESSION['juego'] ?></td>
-
-                    </tr>
-                    <tr>
-                        <td>Personal</td>
-                        <td><?= $_SESSION['personal'] ?></td>
-
-                    </tr>
-                    <tr>
-                        <td>Domestico</td>
-                        <td><?= $_SESSION['domestico'] ?></td>
-
+                        <td><?php echo $v_raw_values[1] ?></td>
                     </tr>
                     <tr>
                         <td>Escritura</td>
                         <td><?= $_SESSION['escritura'] ?></td>
-
+                        <td><?php echo $v_raw_values[2] ?></td>
                     </tr>
                     <tr>
-                        <td>Habilidades de Afrontamiento</td>
-                        <td><?= $_SESSION['afrontamiento'] ?></td>
-
+                        <td>Personal</td>
+                        <td><?= $_SESSION['personal'] ?></td>
+                        <td><?php echo $v_raw_values[3] ?></td>
+                    </tr>
+                    <tr>
+                        <td>Domestico</td>
+                        <td><?= $_SESSION['domestico'] ?></td>
+                        <td><?php echo $v_raw_values[4] ?></td>
+                    </tr>
+                    <tr>
+                        <td>Comunitario</td>
+                        <td><?= $_SESSION['comunitario'] ?></td>
+                        <td><?php echo $v_raw_values[5] ?></td>
                     </tr>
                     <tr>
                         <td>Relaciones interpersonales</td>
                         <td><?= $_SESSION['interpersonales'] ?></td>
-
+                        <td><?php echo $v_raw_values[6] ?></td>
                     </tr>
+                    <tr>
+                        <td>Juego</td>
+                        <td><?= $_SESSION['juego'] ?></td>
+                        <td><?php echo $v_raw_values[7] ?></td>
+                    </tr>
+                    <tr>
+                        <td>Habilidades de Afrontamiento</td>
+                        <td><?= $_SESSION['afrontamiento'] ?></td>
+                        <td><?php echo $v_raw_values[8] ?></td>
+                    </tr>
+
                     <tr>
                         <td>Motricidad Gruesa</td>
                         <td><?= $_SESSION['gruesa'] ?></td>
-
+                        <td><?php echo $v_raw_values[9] ?></td>
                     </tr>
                     <tr>
                         <td>Fina</td>
                         <td><?= $_SESSION['fina'] ?></td>
-
-
+                        <td><?php echo $v_raw_values[10] ?></td>
                     </tr>
                 </tbody>
             </table>
@@ -106,7 +141,8 @@ if (empty($_SESSION['fina'])) {
 
             ?>
         </section>
-
+        <p></p>
+        <p></p>
         <section>
             <canvas id="grafico" width="400" height="200"></canvas>
             <script type="text/javascript" src="../vista/inicio/js/grafica.js"></script>
@@ -144,42 +180,6 @@ if (empty($_SESSION['fina'])) {
             </script>
         </section>
     </div>
-    <script>
-        // Captura el gráfico y la tabla como imágenes y genera el PDF con Dompdf
-        html2canvas(document.getElementById('grafico')).then(function(chartCanvas) {
-            html2canvas(document.getElementById('example')).then(function(tableCanvas) {
-                var chartImgData = chartCanvas.toDataURL();
-                var tableImgData = tableCanvas.toDataURL();
-
-                // Crea el HTML para el PDF, incluyendo las imágenes capturadas
-                var html = '<html><body>';
-                html += '<img src="' + chartImgData + '">';
-                html += '<br>';
-                html += '<img src="' + tableImgData + '">';
-                html += '</body></html>';
-
-                // Genera el PDF utilizando Dompdf
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'convert.php', true); // Archivo PHP para generar el PDF con Dompdf
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                xhr.responseType = 'blob';
-
-                xhr.onload = function(e) {
-                    if (this.status == 200) {
-                        var blob = new Blob([this.response], {
-                            type: 'application/pdf'
-                        });
-                        var link = document.createElement('a');
-                        link.href = window.URL.createObjectURL(blob);
-                        link.download = 'documento.pdf';
-                        link.click();
-                    }
-                };
-
-                xhr.send('html=' + encodeURIComponent(html));
-            });
-        });
-    </script>
 </body>
 <!-- por ultimo se carga el footer -->
 <?php require('./layout/footer.php'); ?>

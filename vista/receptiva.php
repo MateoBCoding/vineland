@@ -11,7 +11,6 @@ if (isset($_POST["identrevistado"])) {
     $telef = $_POST["telefono"];
     $genero = $_POST["sexo"];
     $grado = $_POST["grado"];
-    $gradomax = $_POST["gradomax"];
     $colegio = $_POST["colegio"];
     $diagnosis = $_POST["diagnosis"];
     $edadcronologica = $_POST["edad"];
@@ -30,7 +29,6 @@ if (isset($_POST["identrevistado"])) {
     $_SESSION["telefono"] = $telef;
     $_SESSION["sexo"] = $genero;
     $_SESSION["grado"] = $grado;
-    $_SESSION["gradomax"] = $gradomax;
     $_SESSION["colegio"] = $colegio;
     $_SESSION["diagnosis"] = $diagnosis;
     $_SESSION["edad"] = $edadcronologica;
