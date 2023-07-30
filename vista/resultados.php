@@ -179,6 +179,12 @@ if (empty($_SESSION['fina'])) {
                 });
             </script>
         </section>
+        <section>
+            <button class="sumbit" method="POST" action="receptiva.php" >
+                <span class="btnText">Terminar Evaluacion</span>
+                <i class="uil uil-navigator"></i>
+            </button>
+        </section>
     </div>
 </body>
 <!-- por ultimo se carga el footer -->

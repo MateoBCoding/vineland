@@ -26,7 +26,9 @@ if (isset($_SESSION['receptiva'])) {
     $vraw10 = $v_raw_values[9];
     $vraw11 = $v_raw_values[10];
 
-    $sql = $conexion->query("INSERT INTO resultados (identrevistado, idusuario, Receptiva, Expresiva,
+
+    try {
+        $sql = $conexion->query("INSERT INTO resultados (identrevistado, idusuario, Receptiva, Expresiva,
         Escritura, Personal, Domestico, Comunitario, Relaciones_Interpersonales, Juego_y_tiempo_libre,
         Habilidades_afrontamiento, Motricidad_Gruesa, Motricidad_Fina,
         Vraw_1, Vraw_2, Vraw_3, Vraw_4, Vraw_5, Vraw_6, Vraw_7, Vraw_8, Vraw_9,
@@ -35,4 +37,9 @@ if (isset($_SESSION['receptiva'])) {
         ($identrevistado, $idusuario,$receptiva,$expresiva, $escritura, $personal, $domestico, $comunitario,
         $interpersonales, $juego, $afrontamiento, $gruesa, $fina, $vraw1, $vraw2, $vraw3, $vraw4, $vraw5, $vraw6,
         $vraw7, $vraw8, $vraw9, $vraw10, $vraw11);");
+    } catch (Exception $e) {
+        echo "Error al insertar los datos: " . $e->getMessage();
+    }
+
+    
 }

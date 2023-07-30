@@ -2,14 +2,11 @@
 <html lang="es">
 
 <head>
-
     <head lang="es">
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
         <meta content="ie=edge" http-equiv="x-ua-compatible">
-        <title>Vineland</title>
-
-
+        <title>mispruebas</title>
 
         <link href="https://tresplazas.com/web/img/big_punto_de_venta.png" rel="shortcut icon">
         <link href="../public/app/publico/css/lib/font-awesome/font-awesome.min.css" rel="stylesheet">

@@ -168,12 +168,6 @@
                             <span class="lbl">Usuarios</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="listausuarios.php" class="">
-                            <i class="fas fa-th-list icono-submenu"></i>
-                            <span class="lbl">Empresas</span>
-                        </a>
-                    </li>
                 </ul>
             </li>
         <?php } ?>

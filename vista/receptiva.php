@@ -13,7 +13,8 @@ if (isset($_POST["identrevistado"])) {
     $grado = $_POST["grado"];
     $colegio = $_POST["colegio"];
     $diagnosis = $_POST["diagnosis"];
-    $edadcronologica = $_POST["edad"];
+    $tiempo = explode(':', $_POST["edad"]);
+    $edadcronologica = (int)$tiempo[0];
     $razon = $_POST["razon"];
 
     $idresponder = $_POST["idrespondedor"];
